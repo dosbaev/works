@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+#header {
+  padding: 30px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header-nav a:hover {
+  background: red;
+  color: #ffffff;
+}
+.header-nav a {
+  margin-right: 20px;
+  color: black;
+}
+.hero {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.john h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.john p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px 0;
+}
+.john button {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ffffff;
+  width: 208px;
+  height: 47px;
+  top: 477px;
+  left: 148px;
+  border-radius: 2px;
+  background: #ff6464;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.john button:hover {
+  background: #0f0101;
+  color: red;
+}
+#recent {
+  margin: 50px 0;
+}
+.recenth3 span {
+  color: #edf7fa;
+}
+.recenth3 {
+  margin-top: 3%;
+  margin-left: 10%;
+  color: #21243d;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.posts H2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #21243d;
+  margin: 15px 0;
+}
+.posts p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 15px 0;
+}
+.recent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.posts {
+  width: 34%;
+  margin: 20px 0;
+  background: #ffffff;
+}
+#recent {
+  background: #edf7fa;
+  padding: 0 0 20px 0;
+}
+.recent-a {
+  margin-left: 64%;
+  margin-top: 3%;
+}
+.ports-tor {
+  display: flex;
+  align-items: center;
+}
+.ports-tor a span {
+  color: #edf7fa;
+}
+.ports-tor a {
+  color: #00a8cc;
+}
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.worksh3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243d;
+  margin: -3% 0 0 8%;
+}
+.works-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.works-img img {
+  width: 145%;
+  padding: 20px 0 10px 0;
+}
+.works-btn a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8695a4;
+  margin: 0 15px;
+}
+.works-btn Button {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  width: 62px;
+  height: 27px;
+  border-radius: 16px;
+  background: #142850;
+}
+.works-text P {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px 0;
+}
+#ionicons {
+  margin: 40px 0;
+}
+.ionicons-nav a {
+  margin: 40px 15px 10px 15px;
+  width: 30%;
+  height: 30px;
+  color: #21243d;
+}
+.inoicons-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #21243d;
+}
+.ionicons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.worksh4 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #21243d;
+}
+.blog-h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  margin: 25px 0;
+}
+.blog h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  color: #21243d;
+}
+.blog p span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8695a4;
+}
+.blog p {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+#blog {
+  margin: 25px 0;
+}
+/* //////////////media/////// */
+@media (max-width: 992px) {
+  .posts {
+    width: 46%;
+  }
+  .recenth3 {
+    margin-left: 2%;
+  }
+  .works-img img {
+    width: 97%;
+  }
+  .works-text {
+    height: 185px;
+  }
+}
+@media (max-width: 768px) {
+  .john h1 {
+    font-size: 34px;
+  }
+  .john p {
+    font-size: 12px;
+  }
+  .john-img img {
+    margin-bottom: 24%;
+    margin-left: 14%;
+    width: 73%;
+  }
+  .posts H2 {
+    font-size: 21px;
+  }
+  .posts p {
+    font-size: 13px;
+  }
+  .posts H2 {
+    font-size: 20px;
+  }
+  .works-text h1 {
+    font-size: 24px;
+  }
+  .works-btn Button {
+    font-size: 14px;
+    font-weight: 900;
+    width: 60px;
+    height: 22px;
+  }
+
+  .works-btn a {
+    font-size: 18px;
+  }
+  .works-img img {
+    width: 86%;
+  }
+  .works-text P {
+    margin-left: -4px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 5px 0;
+  }
+  .blog p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .john-img img {
+    margin-bottom: 2394%;
+    margin-left: -710%;
+    width: 640%;
+  }
+  .john h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20%;
+    line-height: 31px;
+  }
+  .john p {
+    margin-left: 31px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .john button {
+    margin-left: 24px;}
+  .John button {
+    margin-left: 22px;
+    height: 37px;
+    width: 179px;
+  }
+  .recent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .posts {
+    width: 100%;
+  }
+  .posts H2 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .posts p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .works {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .works-img img {
+    margin-left: 7%;
+  }
+  .works-text h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .works-btn Button {
+    margin-left: 16%;
+  }
+  .works-text P {
+    text-align: center;
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
